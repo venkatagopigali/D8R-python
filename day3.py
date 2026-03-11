@@ -60,20 +60,21 @@
 # p.height()
 
 
-# class father:
-#     def height(self):
-#         print("5.8")
-#     def color(self):
-#         print("black")
-#     def age(self):
-#         print(70)
-# class mother:
-#     def color(self):
-#         print("white")
-#     def weight(self):
-#         print("70")
-# class child(mother,father):
-#     def hobbies(self):
-#         print("cricket")
+class father:
+    def height(self):
+        print("5.8")
+    def color(self):
+        print("black")
+    def age(self):
+        print(70)
+class mother:
+    def color(self):
+        print("white")
+    def weight(self):
+        print("70")
+class child(father,mother):
+    def hobbies(self):
+        print("cricket")
 # obj=child()
 # obj.color()
+print(child.__mro__)

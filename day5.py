@@ -61,18 +61,19 @@
 # o=cal()
 # o.add(10,5)
 
-# class cal:
-#     def add(self,a,b):
-#         print(a+b)
-#     def security(self):
-#         print('high level')
-#     # def add(self,a,b):
-#     #     print(a+b)
-# class cal1(cal):
-#     def add(self,a,b):
-#         print(a&b)
-# o=cal1()
-# o.add(3,4)
+class cal:
+    def add(self,a,b):
+        print(a+b)
+    def security(self):
+        print('high level')
+    # def add(self,a,b):
+    #     print(a+b)
+class cal1(cal):
+    def add(self,a,b):
+        print(a&b)
+o=cal1()
+o.add(3,4)
+print(cal1.mro())
 # o.security()
 # print()
 
