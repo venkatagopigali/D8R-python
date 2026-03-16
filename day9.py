@@ -22,9 +22,9 @@
 # # print(vishnu.__mro__)
 
 
-# print(len(a))
-from user import vishnu,even_count
-a=[1,3,5,7]
-# print(len(a))
-# print(vishnu(a))
-print(even_count(a))
+# # print(len(a))
+# from user import vishnu,even_count
+# a=[1,3,5,7]
+# # print(len(a))
+# # print(vishnu(a))
+# print(even_count(a))
