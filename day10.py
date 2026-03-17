@@ -15,3 +15,4 @@ from new_pack.practice import list_prime
 from new_pack.mod1 import example,arm
 o=example()
 print(o.display(10,40))
+print(arm(153))
